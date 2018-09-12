@@ -160,7 +160,7 @@ public interface BinanceAuthenticated extends Binance {
    */
   BinanceCancelledOrder cancelOrder(
       @QueryParam("symbol") String symbol,
-      @QueryParam("orderId") long orderId,
+      @QueryParam("orderId") Long orderId,
       @QueryParam("origClientOrderId") String origClientOrderId,
       @QueryParam("newClientOrderId") String newClientOrderId,
       @QueryParam("recvWindow") Long recvWindow,

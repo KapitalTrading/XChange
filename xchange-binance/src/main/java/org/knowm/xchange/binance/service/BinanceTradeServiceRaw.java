@@ -110,7 +110,7 @@ public class BinanceTradeServiceRaw extends BinanceBaseService {
 
   public BinanceCancelledOrder cancelOrder(
       CurrencyPair pair,
-      long orderId,
+      Long orderId,
       String origClientOrderId,
       String newClientOrderId,
       Long recvWindow,
